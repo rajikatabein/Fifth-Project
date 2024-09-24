@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+
+    <!-- tailwind and daisyui cdn-->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+ <!-- font-awsome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+ integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+<div class="flex gap-4">
+    
+    <h1 class="font-bold text-5xl mt-10">Important FAQ</h1>
+<i class="fa-regular fa-circle-question font-bold text-5xl mt-10"></i>
+</div>
+    <div class="w-10/12 mx-auto mt-20 flex flex-col gap-10">
+        <div class="collapse collapse-arrow bg-base-200 ">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content">
+                <p> The Document Object Model (DOM) is a programming interface for web documents. It represents the page
+                    so
+                    that programs can change the document structure, style, and content. The DOM represents the document
+                    as
+                    nodes and objects; that way, programming languages can interact with the page.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+                <p>You can select an element through multiple way like
+                    Using getElementById: The getElementById method allows you to select an element by its ID.
+                    Using getElementsByClassName:
+                    Using getElementsByTagName:
+                    Using querySelector:
+                    Using querySelectorAll:
+                    Changing the Text Content.
+                    Changing the HTML Content.
+                    Changing the Attribute Value.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why
+                is
+                it useful?</div>
+            <div class="collapse-content">
+                <p>Event delegation is based event-bubbling method. It is an event-handling pattern that allows you to
+                    handle events at a higher level in the DOM tree other than the level where the event was first
+                    received.
+                </p>
+
+            </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles
+                using the DOM?</div>
+            <div class="collapse-content">
+                <p>If you want to change other attributes like id , href , or src , you can use the setAttribute()
+                    method. The setAttribute() method accepts two arguments: The name of the attribute to set. The
+                    value
+                    of the attribute to set</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
